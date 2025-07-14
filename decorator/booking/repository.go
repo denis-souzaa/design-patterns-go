@@ -28,7 +28,6 @@ func (rb *RepositoryDatabase) Save(b Booking) error {
 		insert into design_patterns.booking (code, room_id, email, checkin_date, checkout_date, duration, price, status) 
 		values($1,$2,$3,$4,$5,$6,$7,$8)`)
 	if err != nil {
-		fmt.Println(err)
 		return err
 	}
 	_, err = stmt.Exec(
