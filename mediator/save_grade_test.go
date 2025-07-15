@@ -1,8 +1,8 @@
 package main
 
 import (
+	"denis-souzaa/design-patterns-go/decorator/config"
 	"denis-souzaa/design-patterns-go/mediator/average"
-	"denis-souzaa/design-patterns-go/mediator/config"
 	"denis-souzaa/design-patterns-go/mediator/grade"
 	"log"
 	"math/rand"
