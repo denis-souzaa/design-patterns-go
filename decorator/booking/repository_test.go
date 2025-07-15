@@ -1,7 +1,7 @@
 package booking
 
 import (
-	"denis-souzaa/design-patterns-go/decorator/config"
+	"denis-souzaa/design-patterns-go/config"
 	"log"
 	"testing"
 	"time"

@@ -1,8 +1,8 @@
 package main
 
 import (
+	"denis-souzaa/design-patterns-go/config"
 	"denis-souzaa/design-patterns-go/decorator/booking"
-	"denis-souzaa/design-patterns-go/decorator/config"
 	"denis-souzaa/design-patterns-go/decorator/room"
 	"log"
 	"testing"

@@ -1,7 +1,7 @@
 package strategy
 
 import (
-	"denis-souzaa/design-patterns-go/decorator/config"
+	"denis-souzaa/design-patterns-go/config"
 	"fmt"
 	"log"
 	"math/rand"
